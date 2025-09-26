@@ -17,7 +17,7 @@
 - Built-in **admin interface** for managing models and content  
 - **Ready for deployment** on platforms like PythonAnywhere  
 
-## 💡 Development
+## Development
 
 To run the project locally without Docker:
 
