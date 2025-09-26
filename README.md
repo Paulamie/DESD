@@ -1,20 +1,12 @@
 
 # DESD Portal
-
-**Live demo:**  
-🔗 http://paulamie.pythonanywhere.com
-
-Accessible from any device with an internet connection.
-
----
-
-## 📦 Overview
+## Overview
 
 **DESD Portal** is a Django-based web application deployed using Docker. The platform is designed to support user interaction, content management, and backend data handling. It is fully containerised using `docker-compose` and easily deployable both locally and to cloud platforms like PythonAnywhere.
 
 ---
 
-## 🚀 Features
+## Features
 
 - Full-stack **Django** web application  
 - Secure **user authentication** with registration and session management  
@@ -24,28 +16,6 @@ Accessible from any device with an internet connection.
 - Uses **MySQL** as the backend database  
 - Built-in **admin interface** for managing models and content  
 - **Ready for deployment** on platforms like PythonAnywhere  
-
----
-
-## 🐳 Docker Setup Instructions
-
-### 1. Remove old containers and volumes (if needed)
-```bash
-docker-compose down -v
-```
-
-### 2. Build and start fresh containers
-```bash
-docker-compose up --build
-```
-
-### 3. Run migrations
-```bash
-docker-compose exec web python manage.py makemigrations
-docker-compose exec web python manage.py migrate
-```
-
----
 
 ## 💡 Development
 
@@ -71,27 +41,7 @@ Visit `http://localhost:8000` in your browser.
 
 ---
 
-## 📁 Project Structure
-
-```
-DESD-main/
-├── project/
-│   ├── manage.py
-│   ├── project/
-│   │   ├── settings.py
-│   │   ├── urls.py
-│   │   └── wsgi.py
-│   ├── static/
-│   ├── templates/
-│   └── requirements.txt
-├── docker-compose.yml
-├── Dockerfile
-└── README.md
-```
-
----
-
-## 🛠️ Tools & Tech
+## Tools & Tech
 
 - **Python 3**
 - **Django**
@@ -103,7 +53,7 @@ DESD-main/
 
 ---
 
-## ✅ Future Improvements
+## Future Improvements
 
 - Integrate cloud storage or database backups
 - Include unit testing and CI/CD setup
